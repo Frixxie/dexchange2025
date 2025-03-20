@@ -1,10 +1,13 @@
 import moment from "moment";
 import Track from "./track";
 import Break from "./break";
+import CommonSession from "./commonSession";
+
 
 export default class Day {
     tracks: Array<Track> = [];
     breaks: Array<Break> = [];
+    commonSessions: Array<CommonSession> = [];
     start: Date;
     end: Date;
 
@@ -18,6 +21,15 @@ export default class Day {
 
         for(let i = 0; i < day.breaks.length; i++) {
             this.breaks.push(new Break(day.breaks[i], this));
-        }    
+        }
+        
+        if (day.commonSessions === undefined || day.commonSessions.length === 0) {
+            console.log(day);
+            console.log("No common sessions for this day");
+            return;
+        }
+
+        for(let i = 0; i < day.commonSessions.length; i++) {
+            this.commonSessions.push(new CommonSession(day.commonSessions[i], this.tracks[0]));        }    
     }
 }

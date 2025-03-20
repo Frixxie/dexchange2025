@@ -1,11 +1,11 @@
 schedule:  
   days: 
-    - start: 2025-04-09:10.00
+    - start: 2025-04-09:10.30
       end: 2025-04-09:20.00
       breaks:
-        - start: 2025-04-09:10.00
+        - start: 2025-04-09:10.30
           end: 2025-04-09:11.00
-          title: Registrering, Kaffe og mingling, 1 time
+          title: Registrering, Kaffe og mingling, 30 min til 1 time
         - start: 2025-04-09:12.00
           end: 2025-04-09:12.45
           title: Lunsj 45 minutter
@@ -24,41 +24,51 @@ schedule:
         - start: 2025-04-09:18.30
           end: 2025-04-09:20.00
           title: Middag
+      commonSessions:
+        - start: 2025-04-09:11.00
+          end: 2025-04-09:11.15
+          title: Velkommen
+          speaker: Thomas Smedsrud
+          ingress: Velkommen til d:exchange 2025!
+          description: |
+            Vi gleder oss til to dager med deling av kunnskap fra både interne og eksterne.
+          tag: Felles
+        - start: 2025-04-09:11.15
+          end: 2025-04-09:12.00
+          kind: speech
+          title: Keynote
+          teams: 
+          recording: 
+          ingress: TBA
+          description: |
+            TBA
+          speaker: Christin Gorman
+          tag: Felles
+        - start: 2025-04-09:12.45
+          end: 2025-04-09:13.30
+          kind: speech
+          title: | 
+            Felles sesjon TBA
+          teams: 
+          recording: 
+          speaker: Telenor    
+          ingress: Felles sesjon TBA
+          description: | 
+            Felles sesjon TBA
+          tag: Felles
+        - start: 2025-04-09:17.30
+          end: 2025-04-09:18.30
+          kind: speech
+          title: Foredrag om KI TBA
+          teams: 
+          ingress: To be announced
+          description: |
+            TBA
+          speaker: TBA
+          tag: Felles
       tracks:
         - room: Arena
           sessions:
-            - start: 2025-04-09:11.00
-              end: 2025-04-09:11.15
-              title: Velkommen
-              teams: 
-              speaker: Thomas Smedsrud
-              ingress: Velkommen til d:exchange 2025! 
-              description: |
-                Vi gleder oss til to dager med deling av kunnskap fra både interne og eksterne.
-              tag: Felles
-            - start: 2025-04-09:11.15
-              end: 2025-04-09:12.00
-              kind: speech
-              title: Keynote
-              teams: 
-              recording: 
-              ingress: TBA
-              description: |
-                TBA
-              speaker: Christin Gorman
-              tag: 
-            - start: 2025-04-09:12.45
-              end: 2025-04-09:13.30
-              kind: speech
-              title: | 
-                Felles sesjon TBA
-              teams: 
-              recording: 
-              speaker: Telenor    
-              ingress: Felles sesjon TBA
-              description: | 
-                Felles sesjon TBA
-              tag: 
             - start: 2025-04-09:13.45
               end: 2025-04-09:14.15
               kind: speech
@@ -132,16 +142,6 @@ schedule:
                 Delta på workshop for å utforske nye verktøy i ditt eget domene.
               speaker: Liv Bollevåg, Bjørn Tore Hansen og Eivind Holt
               tag: Sammarbeid
-            - start: 2025-04-09:17.30
-              end: 2025-04-09:18.30
-              kind: speech
-              title: Foredrag om KI TBA
-              teams: 
-              ingress: To be announced
-              description: |
-                TBA
-              speaker: TBA
-              tag: KI, Teknologi, Felles
         - room: Kantina
           sessions:
             - start: 2025-04-09:13.45

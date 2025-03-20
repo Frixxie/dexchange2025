@@ -5,6 +5,7 @@ import yaml from "js-yaml";
 import type Day from "../lib/day";
 import Schedule from "../lib/schedule";
 import Session from "../lib/session";
+import CommonSession from "$lib/commonSession";
 import { calculateTop } from "../lib/timeUtils";
 
 export const scheduleStore = asyncReadable(undefined, async () => {
@@ -18,6 +19,8 @@ export const scheduleStore = asyncReadable(undefined, async () => {
 export const dayIndexStore: Writable<number> = writable(0);
 export const activeTrackStore: Writable<number> = writable(0);
 export const activeSessionStore: Writable<Session> = writable();
+export const activeCommonSessionStore: Writable<CommonSession> = writable();
+
 
 export const dayStore: Readable<Day> = derived(
     [scheduleStore, dayIndexStore], ([$scheduleStore, $dayIndexStore], set) => {
@@ -40,7 +43,7 @@ export const timeStore: Readable<Date> = readable(
     new Date(1900, 0, 0), 
     (set) => {
         const interval = setInterval(() => 
-            { 
+            {
                 let now: Date = new Date(Date.now());
                 if (now >= new Date(2024, 3, 17, 11, 0, 0) && now <= new Date(2024, 3, 18, 16, 0, 0)) {
                     set(now)

@@ -217,7 +217,7 @@ schedule:
               end: 2025-04-09:17.15
               kind: speech
               title: Embedding infosec in Development at DIPS
-              speaker: Joe Thomas  
+              speaker: Joe Thomas
               ingress: Get an insight into how DIPS is integrating infosec into its development process.
               description: | 
                 See how we work with our established Security Champion network and the key findings from our ongoing maturity evaluation—where we are doing well and where we need improvement. 
@@ -225,7 +225,7 @@ schedule:
                 To address this, we are laying the foundation for the next steps -> threat modeling, penetration testing, and hands-on coding labs
 
                 Much of infosec work seems to happen behind the scenes, so it could be beneficial for all to hear how we approach it across DIPS, what we are working on, and what to expect going forward.
-              tag: Sikkerhet, Teknologi                    
+              tag: Sikkerhet, Teknologi             
         - room: Klasserom
           sessions: 
             - start: 2025-04-09:13.45
@@ -260,7 +260,7 @@ schedule:
             - start: 2025-04-09:15.30
               end: 2025-04-09:16.00
               kind: speech
-              title: KPIer og dashboard - hvordan data hjelper helsevesenet til å drive mer effektivt og gi riktigere behandling
+              title: Språkteknologi i medisin - hvem, hva, hvor, hvordan og hvorfor/hvorfor ikke?
               ingress: Kunstig intelligens, og spesielt språkteknologi, gir en masse nye muligheter. 
               description: |
                 Både helsevesenet og IKT-bransjen står på hodet for å finne ut hva som er lurt. 
@@ -296,7 +296,7 @@ schedule:
           title: Pause 20 minutter, omrigging
         - start: 2025-04-10:15.30
           end: 2025-04-10:16.00
-          title: Hjemreise         
+          title: Hjemreise
       tracks:
         - room: Storsalen
           sessions:
@@ -397,12 +397,35 @@ schedule:
             end: 2025-04-10:11.45
             kind: workshop
             teams: 
-            title: Assistent Workshop
+            title: Bygg med Puls - i Kode
             ingress: Utviklerne fra Team Assistent skal ha noen praktiske oppgaver rundt AI i DIPS.
             description: |
               Utviklerne fra Team Assistent skal ha noen praktiske oppgaver rundt AI i DIPS.
               (Mer beskrivelse kommer)
-            speaker: William Dalheim
+            speaker: Team 
+            tag: Teknologi, KI
+          - start: 2025-04-10:12.30
+            end: 2025-04-10:14.15
+            kind: workshop
+            title: React Usage - "Skriv bedre React kode"
+            ingress: Det ligger i menneskets natur å være optimistisk.
+            description: |
+              Gjennomgang av eksempler på dårlig og bra kode med diskusjoner. 
+              "You might not need an effect". 
+              Presentasjon og diskusjon rundt en del tema (komponenters rolle, functional programming, Immutable data, Close coupling, TypeScript, ++)
+            speaker: Henrik Haugberg og Birk B. Eidsvik
+            tag: Produkt
+        - room: The Saltstraumen
+          sessions:
+          - start: 2025-04-10:10.00
+            end: 2025-04-10:11.45
+            kind: workshop
+            teams: 
+            title: Bygg din egen AI-agent 🤖
+            ingress: Utforsk hvordan AI passer i ditt domene.
+            description: |
+              Utforsk hvordan AI passer i ditt domene.
+            speaker: Team assistent
             tag: Teknologi, KI
           - start: 2025-04-10:12.30
             end: 2025-04-10:14.15

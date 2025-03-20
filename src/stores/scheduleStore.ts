@@ -30,7 +30,7 @@ export const pixelsPerHourStore: number = 370;
 
 export const heightStore: Readable<number> = derived(
     dayStore, ($dayStore, set) => {
-        var value = (($dayStore.end.getTime() - $dayStore.start.getTime())/3600000 * pixelsPerHourStore)/2;
+        var value = (($dayStore.end.getTime() - $dayStore.start.getTime())/3600000 * pixelsPerHourStore)/1.5;
         set(value);
     });
 

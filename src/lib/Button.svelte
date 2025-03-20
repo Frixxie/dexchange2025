@@ -11,7 +11,7 @@
 
 <style>
 	button {
-        background-color: var(--accent-0);
+        background-color: var(--dipsblue);
         color: white;
         font-size: 1rem;
         font-weight: bold;
@@ -22,6 +22,7 @@
     }
 
     button:hover {
-        color: var(--accent-1)
+        /* color: var(--accent-2) */
+        background-color: var(--accent-2);
     }
 </style>

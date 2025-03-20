@@ -57,9 +57,9 @@
     
     .times {     
         position: relative;   
-        color: #4f4f4f;
+        color: --black;
         border-radius: 10px;
-        font-size: 0.8rem;   
+        font-size: 1rem;   
         padding-left: 4px;     
         /*margin-right: 4px;*/
         font-weight: bold;

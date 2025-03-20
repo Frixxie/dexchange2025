@@ -1,494 +1,441 @@
 schedule:  
   days: 
-    - start: 2024-04-17:11.00
-      end: 2024-04-17:21.00
+    - start: 2025-04-09:10.00
+      end: 2025-04-09:20.00
       breaks:
-        - start: 2024-04-17:12.00
-          end: 2024-04-17:12.45
+        - start: 2025-04-09:10.00
+          end: 2025-04-09:11.00
+          title: Registrering, Kaffe og mingling, 1 time
+        - start: 2025-04-09:12.00
+          end: 2025-04-09:12.45
           title: Lunsj 45 minutter
-        - start: 2024-04-17:13.30
-          end: 2024-04-17:13.50
-          title: Pause 20 minutter
-        - start: 2024-04-17:14.50
-          end: 2024-04-17:15.10
-          title: Pause 20 minutter
-        - start: 2024-04-17:15.55
-          end: 2024-04-17:16.15
-          title: Pause 20 minutter
-        - start: 2024-04-17:17.15
-          end: 2024-04-17:17.30
+        - start: 2025-04-09:13.30
+          end: 2025-04-09:13.45
           title: Pause 15 minutter
-        - start: 2024-04-17:18.15
-          end: 2024-04-17:18.30
-          title: Kald drikke
-        - start: 2024-04-17:18.30
-          end: 2024-04-17:21.00
+        - start: 2025-04-09:14.45
+          end: 2025-04-09:15.00
+          title: Pause 15 minutter
+        - start: 2025-04-09:16.00
+          end: 2025-04-09:16.15
+          title: Pause 15 minutter
+        - start: 2025-04-09:17.15
+          end: 2025-04-09:17.30
+          title: Kald servering starter, 15 min pause
+        - start: 2025-04-09:18.30
+          end: 2025-04-09:20.00
           title: Middag
       tracks:
         - room: Arena
           sessions:
-            - start: 2024-04-17:11.00
-              end: 2024-04-17:11.15
+            - start: 2025-04-09:11.00
+              end: 2025-04-09:11.15
               title: Velkommen
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGI3NzNmMjctMmYxMS00ODRjLWE2ZWItMDJlMmI2NTc5ZDYx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d              
+              teams: 
               speaker: Thomas Smedsrud
-              ingress: Velkommen til d:exchange 2024! 
+              ingress: Velkommen til d:exchange 2025! 
               description: |
                 Vi gleder oss til to dager med deling av kunnskap fra både interne og eksterne.
-            - start: 2024-04-17:11.15
-              end: 2024-04-17:12.00
+              tag: Felles
+            - start: 2025-04-09:11.15
+              end: 2025-04-09:12.00
               kind: speech
-              title: Keynote - Hva vi kan lære av LEGO om API'er?
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTE3ZWI1ZjctYmE5OS00Mjk4LTkzMDItMGI2NTRhOThmNWY4%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FKeynote%20%2D%20Hva%20vi%20kan%20l%C3%A6re%20av%20LEGO%20om%20API%27er%5F%20Jon%20Gjengset%2D20240417%5F111323%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyLjQyMDg2M319&referrer=StreamPlaylist%2EWeb&referrerScenario=PopOut%2Emis%2Ed942e22c%2D6dea%2D4862%2Db1e2%2Db25f41daeebc
-              ingress: | 
-                All programvare starter som én linje kode. Over tid bygger vi på litt 
-                etter litt for å legge til funksjonalitet, helt til vi flere år senere 
-                sitter igjen med en enorm monolitt som er vanskelig å vedlikeholde og 
-                videreutvikle. Denne progresjonen er naturlig, men ikke optimal.
+              title: Keynote
+              teams: 
+              recording: 
+              ingress: TBA
               description: |
-                Dersom vi istedenfor bygger programvare som mindre systemer integrert gjennom
-                dedikerte grensesnitt gir vi oss selv, og våre kunder, mer 
-                fleksibilitet, bedre fremtidssikring, og økt innovasjonspotensiale.
-
-                I dette foredraget vil vi se på hvordan LEGO har lyktes med dette i den 
-                fysiske verdenen, og hvilke lærdommer det kan gir oss om 
-                programvareutvikling.
-              speaker: Jon Gjengset
-            - start: 2024-04-17:12.45
-              end: 2024-04-17:13.30
+                TBA
+              speaker: Christin Gorman
+              tag: 
+            - start: 2025-04-09:12.45
+              end: 2025-04-09:13.30
               kind: speech
               title: | 
-                Fra leveranse til verdi: Effekt i digitale produkter i helsesektoren
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGRiMDcwN2EtOGJiOC00YWRiLWFkM2UtMTI1NWQ3OGY1Yjgy%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FVerdi%20og%20brukervennlighet%20Ove%20Dalen%2D20240417%5F124519%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjg4MDgwNX19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              speaker: Ove Dalen    
-              ingress: Hvordan måle suksess når vi ikke selger joggesko eller driver nettbutikk? Brukervennlighet i apper og digitale produkter i helsektoren er ikke koselig pynt. Det er ofte helt avgjørende for at leger og helsepersonell skal få gjort jobben sin. Dette foredraget handler om hvordan vi kan lage løsninger som gir verdi til både brukerne, samfunnet og virksomhetene.
+                Felles sesjon TBA
+              teams: 
+              recording: 
+              speaker: Telenor    
+              ingress: Felles sesjon TBA
               description: | 
-                Ove Dalen er rådgiver i Netlife og regnes som en av landets fremste eksperter på digitalkommunikasjon og kundeopplevelse. Han jobber i skjæringspunktet mellom forretningsutvikling, design og teknologi og hjelper i dag noen av landets mest ambisiøse selskaper med å lage digitale tjenester, apper og nettsteder. Ove har blant annet gitt ut bøkene «Digital strategi for alle» (2015) og «Effektiv nettskriving» (2018) og har lang erfaring som foredragsholder.
-            - start: 2024-04-17:13.50
-              end: 2024-04-17:14.50
+                Felles sesjon TBA
+              tag: 
+            - start: 2025-04-09:13.45
+              end: 2025-04-09:14.15
               kind: speech
-              title: Hvordan foregår test av versjonsoppgraderinger i Sykehuspartner?
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTI4YzZlYWYtMmFlMy00ZmRlLTg2N2EtMzljYThjMWM1ZDlj%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FHvordan%20foreg%C3%A5r%20test%20av%20versjonsoppgraderinger%20i%20Sykehuspartner%5F%20Camilla%20Brynhildsen%20og%20Marius%20Emilson%20Holmesland%2C%20Sykehuspartner%2D20240417%5F135028%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozLjM4MTczNH19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Camilla og Marius skal ta oss igjennom hvordan de jobber med test av versjonsoppgraderinger i Sykehuspartner.
+              title: Prompt engineering for folk flest
+              teams: 
+              recording: 
+              ingress: I dette bidraget viser vi hvordan man systematisk kan utforme spørsmål og instruksjoner (prompts) for å få mest mulig nøyaktige svar fra AI-modeller som GPT.
               description: |
-                De vil beskrive hvordan de nå jobber parallelt med at HF-ene konsolideres inn i felles base.
-                
-                - Hvordan ser de for seg hverdagen når konsolideringen er over og moderniseringsprosjektet er ferdige med sine oppgaver? 
-              speaker: Camilla Brynhildsen og Marius Emilson Holmesland, Sykehuspartner              
-            - start: 2024-04-17:15.10
-              end: 2024-04-17:15.55
+                Vi går gjennom metoder som zero-shot, few-shot og iterative forbedringer, og ser hvordan tydelig kontekst, eksempler og klare krav gir bedre resultater. 
+                Presentasjonen er rettet mot folk flest og gir en praktisk innføring i hvordan alle kan ta i bruk prompt engineering i både arbeid og hverdag.
+                Hvorfor: Det er viktig å dele innholdet i foredraget fordi AI og språkmodeller i økende grad påvirker hvordan vi jobber og kommuniserer. 
+                Med felles forståelse av hvordan man utformer og bruker effektive prompts, kan flere i organisasjonen dra nytte av teknologien, unngå vanlige feil og samarbeide mer effektivt. 
+                Dette legger til rette for bedre ressursutnyttelse, reduserer tid brukt på feilretting og styrker en felles kultur for innovasjon og kontinuerlig læring.
+              speaker: Bjørn Fjukstad
+              tag: KI, Teknologi              
+            - start: 2025-04-09:14.15
+              end: 2025-04-09:14.45
               kind: speech
-              title: Transformasjon - hva kan DIPS lære av andre virksomheter?
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGJiMGM4ZWUtMDk5OC00ZTJmLTk2OGUtOTc5MWU2ZDcxYmNk%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FTransformasjon%20%2D%20hva%20kan%20DIPS%20l%C3%A6re%20av%20andre%20virksomheter%5F%20Trond%20Fredrik%20Schjander%2DOpsahl%20og%20Agnete%20Enga%2D20240417%5F151053%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjUzNDIwNn19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Siv Marie, Trond Fredrik og Agnete har gjennomført flere kaffeprater med sentrale personer involvert i transformasjonene hos Politiet, Gyldendal, Nav og Sparebank 1. 
+              title: Fra null til hundre med nytt produkt
+              teams: 
+              ingress: Team Web (representert ved Sverre og mest sannsynlig én designer) forteller om sin reise så langt. 
+                Hvordan har de gått frem for å finne ut hvilket problem de skal løse? 
+                Hva har researchen avdekt så langt? Hvilke kvister har de snublet og falt på, hvilke fine stier har de funnet? 
+                Hvordan jobber de sammen som et team, med de to casene de kjører parallelt?
               description: |
-                Dette var for å hente inspirasjon fra hvordan andre som ligger foran oss i løypa har jobbet med transformasjon. Siv Marie, Trond Fredrik og Agnete deler hva som kom frem i samtalene. Dette blir delvis presentasjon og delvis diskusjon 
-                - hva betyr dette for oss?
-              speaker: Siv Marie Lien, Trond Fredrik Schjander-Opsahl og Agnete Enga
-            - start: 2024-04-17:16.15
-              end: 2024-04-17:16.45              
+                Dette er DIPS sin første fokuserte satsning (ved siden av PiP) på et standalone journalprodukt på web. 
+                Mange er nysgjerrige på denne reisen, og jo mer vi deler, jo mer innsikt organisasjonen får, jo mer forståelse og good will kan vi skape rundt de.
+              speaker: Team Web
+              tag: Web
+            - start: 2025-04-09:15.00
+              end: 2025-04-09:15.30              
               kind: speech
-              title: Hvorfor trenger vi å endre måten vi driver produktutvikling på?
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTA4NTdmM2ItMjgyMC00OWQ4LWJlM2EtYzkxZjBjNTY0MzYy%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FHvorfor%20trenger%20vi%20%C3%A5%20endre%20m%C3%A5ten%20vi%20driver%20produktutvikling%20p%C3%A5%5F%20Kjell%2DArne%20Fransplass%2D20240417%5F161303%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozLjkxMTk0Nn19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: DIPS er i endring, både når det gjelder måten vi organiserer produktutviklingen og hvordan vi kan jobbe enda tettere på brukerne for å forstå hvordan vi kan gi kundene våre en enklere og mer effektiv hverdag. 
+              title: Web i 2025
+              teams: 
+              recording: 
+              ingress: Birk Eidsvik fra Team Web snakker om web, landskapet og hvor vi er i 2025
               description: |                 
-                Vi har over flere år rigget utviklingsprosessen rundt overgangen fra Classic til Arena med mål om å få 99% av funksjonalieten over, og der strategien har vært å lage programvare som er «god nok» til at vi får rullet ut Arena hos våre største kunder. 
-                
-                Etter at DIPS etablerte designavdelingen for to år siden har målet vært å jobbe enda mer brukernært og i tettere samarbeid med kundene våre. *Designer i team* innfører ikke bare en ny rolle i teamene og måten vi jobber på, det bringer med seg en helt ny type kompetanse som gir oss ny metodikk og nye verktøy å jobbe med. Det er en ny måte å tenke på som stiller helt andre krav til hvordan man som team nå tar et helhetlig ansvar for hvordan man utforsker problemene man skal løse, og ikke minst endrer det hva det vil si å være en produktleder.    
-
-                I stillingen som produktutviklingsansvarlig har jeg vært i kontakt med de fleste utviklingsteamene i DIPS og snakket med produktansvarlige, prosessansvarlige og utviklere om hva de mener fungerer bra med dagens utviklingsprosess, hva som fungerer mindre bra og hva som skal til for at vi skal klare å jobbe enda mer effektivt og brukernært. Jeg ønsker å oppsummere hva jeg sitter igjen med etter å ha snakket med teamene, hvilke aktiviteter jeg tror kan hjelpe teamene der de står i dag og forsøke å tegne et målbilde av hvor jeg tror vi skal bevege oss som produktutviklingsorganisasjon de neste 2-5 årene.
-              speaker: Kjell-Arne Fransplass
-            - start: 2024-04-17:16.45
-              end: 2024-04-17:17.15
+                Vi tar en titt på landskapet til web utvikling i 2025 og reflekterer rundt hvordan vi har endt opp der vi er i dag.
+              speaker: Birk B. Eidsvik
+              tag: Web, Teknologi
+            - start: 2025-04-09:15.30
+              end: 2025-04-09:16.00
               kind: speech
-              title: Merkantil modell tilpasset moderne produktutvikling
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTZmNzcxMmMtYzg3ZC00ZWMyLWE0NjUtOTcxODI4NWFhM2Q1%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FMerkantil%20modell%20tilpasset%20moderne%20produktutvikling%20Runar%20B%2E%20Slettvoll%2D20240417%5F164436%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjEwNzk0OX19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Hvordan kan vi tilpasse merkantile modeller til kunde- og brukernær og iterativ produktutvikling?
+              title: Fremtidens verktøy for helsevesenet
+              teams: 
+              ingress: Hvordan kan AI forme helsevesenet i årene som kommer, og hvilke tekniske og praktiske utfordringer må vi løse for å komme dit?
               description: |
-                Vi ønsker å fortelle om hva vi jobber med og ønsker feedback.
-              speaker: Runar B. Slettvoll
-            - start: 2024-04-17:17.30
-              end: 2024-04-17:18.15
+                Jeg ønsker å utforske mulighetsrommet og inspirere til nye ideer om hvordan vi, sammen med andre aktører, kan bruke AI til å utvikle de beste mulige løsningene for pasienter i Norge – både gjennom det DIPS leverer og ved å legge til rette for innovasjon i hele økosystemet.
+              speaker: Petter Pettersen
+              tag: KI, Teknologi
+            - start: 2025-04-09:16.15
+              end: 2025-04-09:16.45
               kind: speech
-              title: FK Bodø/Glimt og bedriftskultur – ‘Ingenting er klin kokos umulig’
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGFiODRlMTgtZTQ0MC00MmM0LThlMmEtNzEyYzgzNGUzNTY5%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              ingress: Bodø Glimt har gått fra å være en klubb som kjempet for å holde seg i eliteserien til å vinne seriegull tre ganger, spille to cup-finaler og konkurrere i Europa. Frode Thomassen tar oss med på reisen - med stikkord som kultur, prestasjoner og bærekraft.
-              description: | 
-                Han er daglig leder i FK Bodø/Glimt og har hatt denne stillingen siden sommeren 2017. I fotballsammenheng har han mange år som styremedlem, nestleder og styreleder i Glimt. Han har vært trener på alle nivå, også i damefotballen. Han har også erfaring fra andre klubber som Ski- og fotballklubben Lyn, Stabæk og Vålerenga. Utover dette har han arbeidet 13-14 år som fakultetsdirektør ved Nord universitet, og før det igjen 9-10 år i Kulturdepartementet, hvor han arbeidet den siste perioden som underdirektør.
-              speaker: Frode Thomassen              
-        - room: Hinnøya
-          sessions:
-            - start: 2024-04-17:12.45
-              end: 2024-04-17:13.30
-              kind: speech
-              title: Eventyr i Eventland
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGRiMmYwYTgtZmM5OS00MTFiLTllNzgtYzAyMTMwNDJjMmQw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FEventyr%20i%20Eventland%20Team%20Backbone%2D20240417%5F124412%2DMeeting%20Recording%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjYyNTgwOH19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Vi i Team Backbone deler vår erfaring med å publisere asynkrone meldinger basert på databasehendelser. For å komme frem til løsningen har vi vært gjennom en prosess, der arkitektur og løsningsforslag har endret seg underveis. 
+              title: Fra produkt-idé til implementering
+              teams: 
+              ingress: Hvordan kan vi sikre at DIPS forblir den foretrukne EPJ-leverandøren? Svaret ligger i våre egne ressurser! 
               description: |
-                Vi har hatt løpende dialog med konsumenter, arkitekter og AT-styre. I dette foredraget forteller vi om de sentrale problemstillingene og beslutningene. Målet er å dele og diskutere våre erfaringer. 
-                
-                Asynkrone meldinger blir en kritisk del av arkitekturen til DIPS fremover. Vi bør ha en tydelig *best practice*, slik at team både kan lytte til og publisere meldinger uten å finne opp hjulet på nytt. Meldinger som ikke kommer frem kan føre til alvorlige feil i systemet, så det er enormt viktig at vi har trygge mekanismer for dette. 
-                
-                Nå har Backbone vært gjennom en reise på dette området, og da tror vi det gir verdi å dele dette med resten av bedriften.
-              speaker: Team Backbone
-            - start: 2024-04-17:15.10
-              end: 2024-04-17:15.55
+                Hvordan kan vi sikre at DIPS forblir den foretrukne EPJ-leverandøren? Svaret ligger i våre egne ressurser! 
+                Med ambisjon om å være verdensledende innen EPJ må vi utnytte vårt fortrinn der vår samlede kompetanse innen utvikling, design og helsefag gir oss et unikt utgangspunkt.
+              speaker: Anne Gromsrud
+              tag: Brukervennlighet, Sammarbeid  
+            - start: 2025-04-09:16.45
+              end: 2025-04-09:17.15
               kind: speech
-              title: Overgang til SMUD, business as usual?
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDExMWIxYTQtYzllZC00M2NmLTk5MzYtMjBlN2RhNmVhOTFl%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FOvergang%20til%20SMUD%2C%20business%20as%20usual%5F%20Per%20Arne%20Engstad%2D20240417%5F151001%2DMeeting%20Recording%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjgyMjk0OH19&referrer=StreamPlaylist%2EWeb&referrerScenario=PopOut%2Emis%2Ed942e22c%2D6dea%2D4862%2Db1e2%2Db25f41daeebc
-              ingress: Vi i team Ember elsker SMUD! Men det betyr store endringer for teamet. Hva bør andre team forberede seg på?
+              title: I Natt jag drömde
+              teams: 
+              ingress: |
+                Sanntidsjournalen - Nytt liv i arkivet med maskinlæring og språkteknologi.
               description: |
-                Hvordan påvirker overgang til SMUD utviklingsprosessen og leveranse av programvaren og dokumentasjon til kunder? Hva bør team være spesielt oppmerksomme på?
-              speaker: Per Arne Engstad 
-            - start: 2024-04-17:16.15
-              end: 2024-04-17:17.15
+                Se demonstrasjoner av hvordan semantisk søk kan hjelpe brukerne finne frem i informasjonsoverlasten, hvordan språkteknologi kan hjelpe kommunikasjon mellom helsetjenestenivåene, hvordan maskinlæring kan bringe relevant funksjonalitet til brukeren, hvordan generativ UI kan skreddersy skjermbilder og mer. 
+                Delta på workshop for å utforske nye verktøy i ditt eget domene.
+              speaker: Liv Bollevåg, Bjørn Tore Hansen og Eivind Holt
+              tag: Sammarbeid
+            - start: 2025-04-09:17.30
+              end: 2025-04-09:18.30
               kind: speech
-              title: Referansearkitektur Q&A
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWJkNGRiZDktMWQ2MC00MmFkLWI4ZmQtZTQ1YzhlODFmZDkx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FReferansearkitektur%20Q%26A%20AT%2Dstyret%2D20240417%5F161436%2DMeeting%20Recording%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjI3NTIwOH19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Flere team er godt igang med å benytte ny referansearkitektur, mens andre mener det fortsatt er uklarheter og ønsker dialog.
+              title: Foredrag om KI TBA
+              teams: 
+              ingress: To be announced
               description: |
-                I denne sesjonen tar vi en gjennomgang av hva som har skjedd i etterkant av roadshow og spørsmål vi har fått. 
-                
-                Kanskje det dukker opp nye spørsmål i løpet av dagen?
-              speaker: AT-styret
+                TBA
+              speaker: TBA
+              tag: KI, Teknologi, Felles
         - room: Kantina
           sessions:
-            - start: 2024-04-17:12.45
-              end: 2024-04-17:13.05
-              kind: lightning
-              title: Diffusjonsmodeller er late
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2E2MzgzM2QtOTJkMC00ZDEwLThkOGMtNDcxNDcxMTg1ZjJh%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FDiffusjonsmodeller%20er%20late%20William%20Dalheim%2D20240417%5F124456%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyLjQ0OTk4N319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Diffusjonsmodeller har den merkelige... 
+            - start: 2025-04-09:13.45
+              end: 2025-04-09:14.15
+              kind: speech
+              title: Smud hos kundene
+              teams: 
+              recording: 
+              ingress: Hvordan oppleves våre leveranser sett fra kundene.
               description: |
-                egenskapen at de gjør den minste mengden arbeid som er nødvendig for å nå målet sitt. Dette kan vi utnytte for å få et innblikk i deres beslutningsevne og skjønne hvorfor visse data blir generert. 
-
-                Lyntalen trår i stor grad utenfor domenet til DIPS. Likevel kan det være interessant å se hvordan moderne generativ AI innen maskinsyn fungerer. 
-              speaker: William Dalheim
-            - start: 2024-04-17:13.05
-              end: 2024-04-17:13.25
-              kind: lightning
-              title: Personproxy i databasen
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzcwNjUxZTctNTc5Yy00OTg5LThhZTYtZGFmNDZmMjAwYzg2%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FPersonproxy%20i%20databasen%20Helene%20Brinchmann%20Halvorsen%2D20240417%5F130456%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjU5OTM4M319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Hva alle utviklere og testere må vite om personproxy
+                Hvordan oppleves våre leveranser sett fra kundene. Nyttig å vite for alle som leverer programvare.
+              speaker: Jahn Harald Bull
+              tag: K8s, Leveranse
+            - start: 2025-04-09:14.15
+              end: 2025-04-09:14.45
+              kind: speech
+              title: Nytt i SMUD
+              teams: 
+              ingress: 
               description: |
-                Beskrivelse av modellen og hvorfor det er viktig å forstå denne. Ved pasientsammenslåing kan én person få flere ulike proxyguid'er. Dersom koden ikke tar høyde for dette kan det føre til at brukeren går glipp av viktig informasjon om en pasient. 
-                **Feil på dette området er vanskelig å oppdage, og kan ha alvorlige konsekvenser.**
-              speaker: Helene Brinchmann Halvorsen            
-            - start: 2024-04-17:13.50
-              end: 2024-04-17:14.50
+                Nytt og nyttig i vår leveranseplattform. Og litt om hva vi kommer til å jobbe med framover. Metoder og muligheter rundt vår leveransemodell.
+              speaker: Team Leveranse, Team PLattform og Team DDE
+              tag: K8s, Leveranse
+            - start: 2025-04-09:15.00
+              end: 2025-04-09:16.00
               kind: workshop
-              title: Hvordan jobbe med effekt og verdi i DIPS
-              speaker: Ove Dalen  
-              ingress: Vi jobber med oppgaver for å komme nærmere hva DIPS kan gjøre for å jobbe mer målrettet med verdi i sine digitale løsninger.
+              title: Metrikkworkshop - Grafana dashboards i praksis
+              teams: 
+              ingress: Lær å samle, analysere og visualisere metrikker i Grafana. 
+              description: |
+                Lær å samle, analysere og visualisere metrikker i Grafana. 
+                Fra grunnleggende oppsett til effektive dashboards - alt du trenger for bedre innsikt i dine systemer.
+              speaker: Øystein G. Lindbjør
+              tag: Utvikling, Teknologi
+            - start: 2025-04-09:16.15
+              end: 2025-04-09:17.15
+              kind: workshop
+              title: Hvordan utvikle mot felles utviklingsmiljø
+              teams: 
+              ingress: Denne økten har som mål å dele tips&triks for SMUD utvikling.
+              description: |
+                Vi bruker smud-user-group formatet og økta gir dere anledning til å komme med egne erfaringer og innslag. Team Leveranse forbereder innslag om disse temaene
+                - Delt utviklingsmiljø
+                - Overgang til paraplychart uten unødvendig nedetid i produksjon
+              speaker: Jon S. Trandem
+              tag: Utvikling, Teknologi
+        - room: Landegode
+          sessions:
+            - start: 2025-04-09:13.45
+              end: 2025-04-09:14.45
+              kind: workshop
+              title: Bygg med Puls - i Figma
+              teams: 
+              ingress: Bli med på en praktisk workshop hvor du bygger med designsystemet vårt, Puls! 
+              description: |
+                Bli med på en praktisk workshop hvor du bygger med designsystemet vårt, Puls! Du får en konkret oppgave å løse ved hjelp av Puls-komponenter, mens vi er til stede for å svare på spørsmål og gi support.)
+              speaker: Alexandra Lo Cascio
+              tag: design
+            - start: 2025-04-09:16.15
+              end: 2025-04-09:16.45
+              kind: speech
+              title: Dup is Dead
+              teams: 
+              recording: 
+              ingress: Mange har kommet over på liquibase, men fortsatt gjenstår noe.
+              description: |
+                Mange har kommet over på liquibase, men fortsatt gjenstår noe. 
+                Og vi har en god del "testdata-dupper", vi kan ikke fortsette å lage slike så her må vi sammen finne bedre metoder.
+                Å fase ut bruken av dup helt er viktig også i forhold til leveransemetodikk og kompleksiteten som er i dag med bruk av octopus deploy i tillegg til smud-gitops modellen
+              speaker: Helene Brinchmann Halvorsen       
+              tag: Utvikling, Teknologi
+            - start: 2025-04-09:16.45
+              end: 2025-04-09:17.15
+              kind: speech
+              title: Embedding infosec in Development at DIPS
+              speaker: Joe Thomas  
+              ingress: Get an insight into how DIPS is integrating infosec into its development process.
               description: | 
-                Ove Dalen er rådgiver i Netlife og regnes som en av landets fremste eksperter på digitalkommunikasjon og kundeopplevelse. Han jobber i skjæringspunktet mellom forretningsutvikling, design og teknologi og hjelper i dag noen av landets mest ambisiøse selskaper med å lage digitale tjenester, apper og nettsteder. Ove har blant annet gitt ut bøkene «Digital strategi for alle» (2015) og «Effektiv nettskriving» (2018 og har lang erfaring som foredragsholder.
-            - start: 2024-04-17:15.10
-              end: 2024-04-17:16.25
-              kind: workshop
-              title: React golden path
-              ingress: Workshop om hvordan komme i gang med utvikling i React på en rask og god måte
-              description: |
-                Kunnskapsdeling er alltid viktig. Spesielt nå som DIPS skal ut på web. Da er det kritisk at man bygger webkunnskapen i firmaet samt danner et fagmiljø som holder kunnskapsdelingen gående.
+                See how we work with our established Security Champion network and the key findings from our ongoing maturity evaluation—where we are doing well and where we need improvement. 
+                As we move towards DIPS as a Service, strengthening these areas becomes even more critical due to the increased surface area and exposure. 
+                To address this, we are laying the foundation for the next steps -> threat modeling, penetration testing, and hands-on coding labs
 
-                Ta gjerne med PC.
-              speaker: Martin Vassbotten                      
+                Much of infosec work seems to happen behind the scenes, so it could be beneficial for all to hear how we approach it across DIPS, what we are working on, and what to expect going forward.
+              tag: Sikkerhet, Teknologi                    
         - room: Klasserom
           sessions: 
-            - start: 2024-04-17:12.45
-              end: 2024-04-17:13.15
+            - start: 2025-04-09:13.45
+              end: 2025-04-09:14.15
               kind: speech
-              title: Taleassistent
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzc4NTlhOTMtYWVjMC00NWZiLTg0MTItYjk2NWIwZTE1ZWIw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FTaleassistent%20Eivind%20Holt%2D20240417%5F124533%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTg4LjAzMDUyN319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Bruk av open-source talemodell for diktering og talestyring i Arena.
+              title: Arena mobil - App Store og Play Store
+              teams: 
+              recording: 
+              ingress: 
               description: |
-                Talegjenkjenning opplever en renessanse takket være open-source modeller med god ytelse. Dette kommer til å bli relevant for EPJ og viktig å bli kjent med.
-              speaker: Eivind Holt
-            - start: 2024-04-17:13.50
-              end: 2024-04-17:14.50
-              kind: workshop
-              title: Asynkrone integrasjoner
-              ingress: Vi møtes for å dele erfaring rundt asynkrone integrasjoner. Først blir det en liten gjennomgang av teori rundt meldingssystemer for å ha et felles vokabular. Deretter diskuterer vi oss gjennom utfordringer, tankesett og løsninger i flere eksisterende implementasjoner i DIPS, hvor man har tatt i bruk asynkrone integrasjoner. 
+              speaker: Tor Eirik Guin
+              tag: Produkt
+            - start: 2025-04-09:14.15
+              end: 2025-04-09:14.45
+              kind: speech
+              title: Fra himmel til helmete
+              ingress: Dette foredraget vil utforske hvordan vi kan jobbe med helm charts og templates uten å forkaste etablerte prinsipper for utvikling av kode. Vi har lang erfaring med å utvikling med automatisk testing, gjenbruk, abstraksjon og modularisering. Hvordan kan vi dra nytte av dette når vi jobber med helm charts?
               description: |
-                Etter workshopen ønsker vi at deltakerne har en dypere forståelse for pros and cons med forskjellige asynkrone patterns og har fått et nettverk man kan bruke fremover.
-                
-                Det er mange team som nå jobber med å forstå og implementere asynkrone arbeidsflyter. Det er store fordeler med en asynkron arkitektur, men det er også store fallgruver.
-              speaker: Øyvind Røed Lynne
-            - start: 2024-04-17:15.10
-              end: 2024-04-17:15.55
-              kind: workshop
-              title: Asynkrone integrasjoner forts.
-              speaker: Øyvind Røed Lynne
-    - start: 2024-04-18:09.00
-      end: 2024-04-18:16.00
+                Helm charts er viktig i DIPS sin leveransemodell fremover, og vi trenger å snakke om hvordan vi kan jobbe med slike charts fremover.
+              speaker: Trygve Valøy
+              tag: Utvikling, Teknologi
+            - start: 2025-04-09:15.00
+              end: 2025-04-09:15.30
+              kind: speech
+              title: KPIer og dashboard - hvordan data hjelper helsevesenet til å drive mer effektivt og gi riktigere behandling
+              ingress: Hvordan kan DIPS hjelpe leger, ledere, avdelinger og helsevesenet generelt ved å gi dem bedre styringsdata?
+              description: |
+                Hvordan kan DIPS hjelpe leger, ledere, avdelinger og helsevesenet generelt ved å gi dem bedre styringsdata?
+                Hvordan skaper vi verdi av de dataene vi forvalter i DIPS Arena?
+              speaker: Pål Brekke og Jon Bratberg
+              tag: Teknologi
+            - start: 2025-04-09:15.30
+              end: 2025-04-09:16.00
+              kind: speech
+              title: KPIer og dashboard - hvordan data hjelper helsevesenet til å drive mer effektivt og gi riktigere behandling
+              ingress: Kunstig intelligens, og spesielt språkteknologi, gir en masse nye muligheter. 
+              description: |
+                Både helsevesenet og IKT-bransjen står på hodet for å finne ut hva som er lurt. 
+                Og ikke så lurt. KI blir en helt sentral teknologi framover. 
+                Forstå litt mer om helsevesenets behov, hva som allerede gjøres, og hva vi kan bidra med fra DIPS.
+              speaker: Pål Brekke
+              tag: KI
+            - start: 2025-04-09:16.15
+              end: 2025-04-09:16.45
+              kind: speech
+              title: Poweroffice - overgang testing fra onprem til sky
+              speaker: Anette Lund og Anja Sjøholt
+              tag: QA
+            - start: 2025-04-09:16.15
+              end: 2025-04-09:16.45
+              kind: speech
+              title: ShareIT prosjektet
+              description: |
+                TBA
+              speaker: Stine Nyheim
+              tag: Produkt, Design
+    - start: 2025-04-10:08.45
+      end: 2025-04-10:15.30
       breaks:
-        - start: 2024-04-18:10.00
-          end: 2024-04-18:10.20
-          title: Pause 20 minutter
-        - start: 2024-04-18:11.15
-          end: 2024-04-18:11.25
-          title: Pause 10 minutter
-        - start: 2024-04-18:12.00
-          end: 2024-04-18:12.45
-          title: Lunsj 45 minutter
-        - start: 2024-04-18:13.45
-          end: 2024-04-18:13.55
-          title: Pause 10 minutter
-        - start: 2024-04-18:14.40
-          end: 2024-04-18:14.50
-          title: Pause 10 minutter
-        - start: 2024-04-18:15.45
-          end: 2024-04-18:16.00
+        - start: 2025-04-10:09.40
+          end: 2025-04-10:10.00
+          title: Pause 20 minutter, omrigging
+        - start: 2025-04-10:11:45
+          end: 2025-04-10:12.30
+          title: Lunsjpause, 45 minutter
+        - start: 2025-04-10:14.15
+          end: 2025-04-10:14.35
+          title: Pause 20 minutter, omrigging
+        - start: 2025-04-10:15.30
+          end: 2025-04-10:16.00
           title: Hjemreise         
       tracks:
-        - room: Arena
+        - room: Storsalen
           sessions:
-            - start: 2024-04-18:09.00
-              end: 2024-04-18:10.00
+            - start: 2025-04-10:08:45.00
+              end: 2025-04-10:09.40
               kind: speech
-              title: AIpocalypse now?
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWVjY2I3MzktNWNjZi00OWRjLWFhYWMtMGZhMjdlYzM5YjQ4%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              ingress: Vi har aldri visst så mye som vi gjør i dag om hvor lite vi vet om i morgen. Når fremtiden er usikker er den beste fremgangsmåten å bygge en portefølje av muligheter for hva fremtiden kan bringe. 
+              title: Paneldebatt
+              teams: 
+              ingress: Vi rigger til paneldebatt
               description: |
-                Med kunstig intelligens kommer denne fremtiden enda nærmere enn tidligere. 
-                Det er stor sjanse for at KI gjør verden til et bedre sted for de aller - aller fleste. 
-                Det er likevel en bitte liten sjanse for at det kan gå skikkelig galt. 
-                Dette foredraget handler om hvordan innrette seg for at det skal gå skikkelig bra. 
-
-                **Det tas ikke opptak av dette foredraget.**
-              speaker: Yngvar Ugland, DNB
-            - start: 2024-04-18:10.20
-              end: 2024-04-18:10.50
+                Tema er TBA
+              speaker: Sverre og Hanne 
+              tag: Felles
+            - start: 2025-04-10:14.35
+              end: 2025-04-10:15.30
               kind: speech
-              title: Bifrost modellen
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODNiODk5OTMtNjhhNC00YzEyLWJiMTEtNzljNzU3OTBmNzRi%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FBifrost%20som%20innovasjonsprosjekt%20Bj%C3%B8rn%20N%C3%A6ss%20og%20Morten%20H%C3%B8rthe%2D20240418%5F102041%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjYyOTMyfX0%3D&referrer=StreamPlaylist%2EWeb&referrerScenario=PopOut%2Emis%2Ed942e22c%2D6dea%2D4862%2Db1e2%2Db25f41daeebc
-              ingress: Bifrost har etablert en samarbeidsmodell for bruker- og kundenær utvikling. Ved å ansvarliggjøre sluttbrukeren gjennom tidlig testing i DIPS Arena blir tilbakemeldingene på funksjonalitet vesentlig mer relevant.
+              title: Felles Locknote
+              teams: 
+              recording: 
+              ingress: Felles Locknote
               description: | 
-                I foredraget presenteres modellen ved å vise til prosjekt som har blitt veldig gode. Kanskje enda viktigere for læring er å snakke om faktorer som virker negativt på resultatet.
- 
-                Vi ser frem til å dele våre erfaringer med deg!
-              speaker: Bjørn Næss og Morten Hørthe
-            - start: 2024-04-18:10.50
-              end: 2024-04-18:11.15
-              kind: speech
-              title: Journalen på 18 minutter
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTdlZjRlNjUtNDkwNS00MGEyLTk0NGYtY2Y3NjMzYThkMmYw%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FJournalen%20p%C3%A5%2018%20minutter%20%C3%98ystein%20Olsen%2D20240418%5F105116%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjE3NjU3N319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Mange i DIPS jobber med kliniske data, enten direkte eller indirekte. På grunn av taushetsplikt er innholdet i disse utilgjengelig for den jevne DIPS-er. 
-              description: |
-                Dette foredraget tar utgangspunkt i tall fra kundenes databaser for å gi et overordnet blikk på hva slags informasjon kundene faktisk legger inn i journalen. 
-                Siden vi ikke kan ha reelle kundedata i våre interne miljøer, er det vanskelig å danne seg et korrekt bilde av hva journaldokumentene inneholder. Dette foredraget gir et oversiktsbilde av journalen, både med tanke på innhold, antall og ulike tekniske parametere som størrelser og formater. 
-              speaker: Øystein Olsen
-            - start: 2024-04-18:11.25
-              end: 2024-04-18:12.00
-              kind: speech
-              title: Embracing GitHub Copilot in our daily work
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzRkOTg3N2QtZGYxNi00ZmM1LWI4YWQtNjdjZjBjMzVkMDE0%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FEmbracing%20GitHub%20CoPilot%20in%20our%20daily%20work%20Askar%20Mehdi%20og%20Bj%C3%B8rn%20Fjukstad%2D20240418%5F112510%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyLjkzNjMxNX19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Vi diskuterer GitHub Copilot, og presenterer eksempler på bruk fra virkeligheten hentet fra DIPS.
-              description: |
-                Vi diskuterer gevinster, svakheter og muligheter, og deler eksempler fra virkeligheten om hvordan en utvikler i DIPS har brukt Copilot i sitt daglige arbeid.
-
-                Noe av målet vårt er å vise utviklere i DIPS hvordan de kan effektivisere arbeidsdagen sin ved å bruke Github Copilot.
-              speaker: Askar Mehdi og Bjørn Fjukstad
-            - start: 2024-04-18:12.45
-              end: 2024-04-18:13.15
-              kind: speech
-              title: Innsikt i programvaren din med metrikker
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTU3NjMzZGItZDU1ZC00ODdkLWE3Y2EtODk4NmRiM2Y5ZDY3%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FInnsikt%20i%20programvaren%20din%20med%20metrikker%20Trond%20Andersen%2D20240418%5F124507%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjYxMzg1Nn19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Med OpenTelemetry sender tjenesten din metrikker allerede i dag. Hvordan kan du bruke disse metrikkene og hvordan du kan lage dine egne metrikker for ditt domene?
-              description: |                
-                I et distribuert system er det viktig å ha innsikt i hvordan programvaren kjører på kjøreplattformen. Metrikker gir viktig kunnskap som bidrar til denne innsikten. Utviklere kan lage metrikker innenfor sitt domene og måle effekten av sin kode. 
-              speaker: Trond Andersen
-            - start: 2024-04-18:13.15
-              end: 2024-04-18:13.45
-              kind: speech
-              title: 🐹 Hvorfor dør hamsterne mine? - en UX casestudie
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTBjYzdmODMtOWFlYi00NDk1LWIxZjctZTcwZTkyM2I5MmY4%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2F%F0%9F%90%B9%20Hvorfor%20d%C3%B8r%20hamsterne%20mine%5F%20%2D%20en%20UX%20casestudie%20Julie%20Amalie%20Karlsen%2D20240418%5F130951%2DOpptak%20av%20m%C3%B8te%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Bli med på reisen fra konseptualisering til andre iterasjon av en mobilapp for hamstereiere.
-              description: |
-                Få et innblikk i hvordan en designer jobber med å identifisere et problem og komme frem til en løsning. 
-                Obs! Forvent drama, intriger, parkonflikt, og søte bilder av hamstere 🐹🆘😵‍💫
-                
-                Foredraget gir god innsikt i alt som ligger bak et design og hvordan designet påvirker brukeropplevelsen, og kan dermed gi ikke-designere en bedre forståelse for hva en UX-designers jobb faktisk er og hvordan de jobber.
-              speaker: Julie Amalie Karlsen
-            - start: 2024-04-18:13.55
-              end: 2024-04-18:14.40
-              kind: speech
-              title: Arena og web
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI0MDljNDQtYWM5Ni00ZDdjLTgzYzctNDg5OTkzODU4Yzgx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FArena%20og%20web%20Trond%20Fredrik%20Schjander%2DOpsahl%2D20240418%5F135805%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyLjk0Nzk5Mn19&referrer=StreamPlaylist%2EWeb&referrerScenario=PopOut%2Emis%2Ed942e22c%2D6dea%2D4862%2Db1e2%2Db25f41daeebc
-              ingress: |
-                *Vi skal på web!* - Hva betyr det egentlig? 
-              description: |
-                Hvor er vi i dag, hvor skal vi og hvordan skal vi komme dit?
-              speaker: Trond Fredrik Schjander-Opsahl
-            - start: 2024-04-18:14.50
-              end: 2024-04-18:15.30
-              kind: speech
-              title: Relasjonell kommunikasjon og kulturbygging 
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTc5ZmEwM2MtODE2NS00NzA3LThmN2UtNDVjODZhMjI3ZjBl%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              ingress: Hvordan kan vi bruke relasjonell kommunikasjon til å bygge gode team i en organisasjon i utvikling?
-              description: |
-                Nina Kramer Fromreide har mange års erfaring som leder i private og offentlige virksomheter der utvikling og endring gjennom lagspill målorientering, kreativitet og relasjonsledelse har stått i sentrum. De siste ti årene har hun vært ansatt som universitetslektor ved Handelshøgskolen, Nord Universitet i Bodø. Hun er fagansvarlig og underviser innen fagområdene organisasjon og ledelse samt markedsføring og strategi. Nina har lang erfaring som organisasjons- og lederutvikler samt som foredragsholder innen strategisk ledelse. Hun er opptatt av samspill og hvordan mennesker påvirker hverandre til å oppnå best mulige resultater i fellesskap.
-                
-                **Det tas ikke opptak av dette foredraget.**
-              speaker: Nina Kramer Fromreide, Nord universitet
-            - start: 2024-04-18:15.30
-              end: 2024-04-18:15.45
-              title: Avslutning
-              ingress: Takk for kunnskapsrike dager!
-              description: Vel hjem!
-              speaker: d:exchange-komiteen
-        - room: Hinnøya
+                TBA
+              speaker: To be announce
+              tag: Felles
+        - room: Storsal 1
           sessions:
-            - start: 2024-04-18:10.10
-              end: 2024-04-18:11.00
-              kind: speech
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTY4OWJkMjktMjUyZS00Y2JjLTlmNDMtZDRlMGEzYjRiMTVm%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FAutomatisert%20test%20m%C3%B8ter%20universell%20utforming%20Cecilie%20Haugstvedt%2C%20Soco%2D20240418%5F101345%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjE4ODkwNH19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              title: Automatisert test møter universell utforming
-              ingress: Det finnes mye rart ute på nettet. Noen nettsteder er et mareritt å navigere for alle, andre er bare forferdelig for mennesker med nedsatt funksjonsevne. Noen nettsteder er umulige å navigere med en skjermleser. Andre inneholder tastaturfeller eller bruker farger som er bedre egnet til å kamuflere teksten enn å gjøre den lesbar. 
-                
-              description: |
-                Heldigvis for oss er nettet bygget av mennesker. Vi kan gjøre det tilgjengelig hvis vi bare prøver å gjøre det.
-                
-                Det finnes flere verktøy som kan være til stor hjelp hvis du vil verifisere at du lager et tilgjengelig nettsted. Automatiske tilgjengelighetstester kan være til enda større hjelp, og frigjøre tid til å fokusere på endringene som vil gjøre nettstedet ditt bedre for alle. 
-                                
-                I dette foredraget vil du lære hva automatiske tilgjengelighetstester er, hvorfor du bør bruke de og hvordan du kan bruke de i et prosjekt. Underveis vil du lære om noen av de vanligste tilgjengelighetsfeilene som kan oppdages automatisk. 
-              speaker: Cecilie Haugstvedt, Soco
-            - start: 2024-04-18:11.00
-              end: 2024-04-18:12.00
+            - start: 2025-04-10:10.00
+              end: 2025-04-10:11.45
               kind: workshop
-              title: Automatisert testing av universell utforming - linting og Cypress
-              ingress: Det finnes mange verktøy som kan hjelpe deg å lage en mer universelt utformet løsning. Automatiserte tilgjengelighetstester er et av disse verktøyene. Gjort på riktig måte vil de hjelpe deg å luke ut problemer og frigjøre tid til å fokusere på endringene som vil gjøre nettstedet ditt bedre for alle.
+              teams: 
+              title: Sammen om en enklere hverdag
+              ingress: Dette er en kombinert WS og foredrag, som er en videreføring av strategiarbeidet og operasjonalisering av dette. 
               description: |
-                I denne workshopen lærer du hvordan du setter opp og skriver dine egne tilgjengelighetstester. Mens vi gjør dette, vil vi også dekke noen av de vanligste tilgjengelighetsfeilene som kan oppdages automatisk, og lære hvordan du fikser dem.
- 
-                Lær hvordan du ekskluderer problemer/legger til unntak, setter passende nivå (WCAG A, AA, AAA) og begrenser testing til spesifikke komponenter.
- 
-                Dette er en praktisk workshop og du må ha med PC/mac med git og node.js installert.
-              speaker: Cecilie Haugstvedt, Soco
-            - start: 2024-04-18:12.45
-              end: 2024-04-18:13.45
+                Det er en mulighet for flere å kunne koble seg på og bidra med erfaringer og innspill. Vi former WS ut i fra hvor vi står etter Samkjøringsuka, så den kan omhandle alt fra visjonen, OKRs, strategiske valg mm - velkommen :)
+              speaker: Agnete Enga og Line Krauss-Larsen 
+              tag: strategi
+            - start: 2025-04-10:12.30
+              end: 2025-04-10:14.15
               kind: workshop
-              title: Figmakurs
-              ingress: For de som ønsker å lære seg å bruke figma. Det blir en interaktiv workshop der man får en oppgave, med veiledning. Det vil også være mulig å spørre om tips og triks for det *nivået* man har kommet i Figma.
-              description: |                
-                Flere har uttrykt et ønske om å lære seg Figma for å raskere kunne lage skisser eller prototyper, og kunne diskutere løsningsforslag med visuelle virkemidler. Men terskelen for å komme i gang kan være litt stor. Dette kurset er ment som en inngangsport for å senke terskelen.
-                
-                Deltakerne ha med seg pc, og helst ha opprettet en figmabruker med sin dips-epost i forkant av kurset. 
-              speaker: Lisa Frodadottir Haugen
-            - start: 2024-04-18:13.55
-              end: 2024-04-18:14.40
-              kind: workshop
-              title: Aktiv lytting
-              ingress: Ønsker du å forstå mennesker for å lage løsninger som treffer? Da er det essensielt å lytte! Denne sesjonen vil handle om hva brukerinnsikt er og hvilke teknikker som finnes. Vi vil se nærmere på aktiv lytting og hvordan du kan bruke dette i din arbeidshverdag. Aktiv lytting er en metodikk som kommer fra psykologien og er et godt verktøy når vi ønsker å sette oss inn i og forstå perspektivene til folk.
+              title: I natt jag drömde
+              ingress: Sanntidsjournalen - nye verktøy
               description: |
-                Sesjonen vil være relevant for deg som vil forsøke å forstå mennesker (og da våre brukere) bedre.
-                Den vil for det meste bestå av praktiske øvelser. (Maks 30 pers - 10 grupper med tre personer i hver)
-
-                Brukervennlighet er en del av strategien vår i DIPS. For å lage brukervennlige løsninger trenger vi å lytte godt til sluttbrukere og til våre kunder. Det vil bidra til å forstå deres perspektiver og konkrete behov inn i produktutviklingen. Derfor håper jeg at flere er interesserte i å få noen aktiv lytting-teknikker inn i verktøykassen sin.
-              speaker: Nathalie Jonkers
-        - room: Kantina
+                Lavterskel workshop der domeneeksperter får utvide verktøykassa og eksperimentere med nye måter å løse gamle problemer. 
+                Bygger på konseptene presentert i foredrag.
+              speaker: Liv Bollevåg, Bjørn Tore Hansen og Eivind Holt
+              tag: Sammarbeid
+        - room: Storsal 2
           sessions:
-            - start: 2024-04-18:10.10              
-              end: 2024-04-18:10.35
-              kind: speech
-              title: Web og OpenTelemetry
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTc2MjAxNTEtMjI5Zi00ZWQ5LTkwMzktODYwNmNhODhlYzcx%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FVerdi%20og%20brukervennlighet%20Ove%20Dalen%2D20240417%5F124519%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjg4MDgwNX19&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Viser hvordan en fort kan komme i gang med OpenTelemetry i en JavaScript-basert webklient. 
-              description: |
-                Foredraget vil vise hvordan du kan få distribuert sporing som henger i hop med resten av programvaren i DIPS og hvordan du kan sende metrikker fra webklienten.
-                Når vi alle skal i gang med web vil det være nyttig å måle ytelsen av programvaren så nært brukeren som mulig. OpenTelemetry for web gjør dette mulig. Se hvordan din kode henger sammen med resten av programvaren i DIPS. OpenTelemetry for web åpner opp for å samle inn data som tradisjonelt har vært utfordrende for oss som en programvareleverandør som skal kjøre i ulike omgivelser. 
-              speaker: Trond Andersen
-            - start: 2024-04-18:10.35
-              end: 2024-04-18:11.15
-              kind: speech
-              title: Web Sockets / SignalR
-              teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTU4YzJjMjAtYjdhZi00NWNkLTgzYjgtZTUzYzExZGM5NGRl%40thread.v2/0?context=%7b%22Tid%22%3a%222f46c919-7c11-4465-84b2-e354fb809979%22%2c%22Oid%22%3a%2202c0aa84-ceb9-48d7-b5e2-805e30e52583%22%7d
-              recording: https://365dips.sharepoint.com/sites/DIPS-alleansatte/_layouts/15/stream.aspx?id=%2Fsites%2FDIPS%2Dalleansatte%2FShared%20Documents%2FUtvikling%2FInformasjon%20og%20samlinger%2Fdexchange%2Fdexchange%202024%2FOpptak%2FWeb%20Sockets%20%5F%20SignalR%20%C3%98ystein%20Danielsen%2D20240418%5F103613%2DOpptak%20av%20m%C3%B8te%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxLjc3MjI3N319&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview
-              ingress: Foredraget handler om hvordan du gjennom bruk av websockets kan dytte data ut til brukeren uten at brukeren foretar seg noe.
-              description: |
-                Det blir litt koding med WebSockets først for å forstå konseptet. Deretter begir vi oss ut i .NET-biblioteket SignalR som lar deg bruke WeSockets i .NET. Vi blir å lage en liten webapp, men konseptene kan også brukes på andre plattformer.
-
-                Kundene forventer en bedre brukeropplevelse og at vi løser nye problemer. Dette betyr av og til krav sanntidskommunikasjon og liveoppdateringer. Målet er å vise deg hvor enkelt det er å implementere liveoppdateringer uten noe særlig ekstra kode.
-              speaker: Øystein Danielsen
-            - start: 2024-04-18:12.45
-              end: 2024-04-18:13.45
+            - start: 2025-04-10:10.00
+              end: 2025-04-10:11.45
               kind: workshop
-              title: Failure - plug and play. Right way to get it wrong.
-              ingress: Go through the process of learning from failure step-by-step. Working with complex solutions in an uncertain environment, failure becomes a natural part of the work process. It is important to know how to turn challenges into opportunities.
-              description: |                
-                
-              speaker: Alexandra Bieliei            
-            - start: 2024-04-18:13.55
-              end: 2024-04-18:14.40
-              kind: workshop
-              title: Avhengigheter i databasen
-              ingress: Under AT-styrets roadshow ble det tydelig at en av de store utfordringene vi har i dag er mengden avhengigheter i databasen. Dette hindrer flere store målsettinger som oppgradering uten nedetid, migrere tjenester over til kubernetes og remodellering for å modernisere domenemodeller.
-                
+              teams: 
+              title: KI-Verktøy
+              ingress: Denne økten blir en kombinasjon av foredrag og praktiske øvelser. 
               description: |
-                  Team DDE vil innlede med en beskrivelse av problemstillingene og hvordan man kan identifisere slike problemer i egen datamodell, så vil team Selecta, team Nightingale og team DDE vil presentere ulike migreringsteknikker som  er gjennomført i produksjon i dag. Vi legger opp til diskusjoner underveis i presentasjonen.
+                Denne økten blir en kombinasjon av foredrag og praktiske øvelser. 
+                Hans Martin har bred erfaring i bruk av KI-verktøy i arbeidshverdagen, kom og bli inspirert! 
+                Denne økten passer for alle.
+              speaker: Hans Martin Cramer
+              tag: KI, Teknologi
+            - start: 2025-04-10:12.30
+              end: 2025-04-10:14.15
+              kind: workshop
+              title: GitHub CoPilot for utviklere
+              ingress: 
+              description: |
                 
-                  Dette er en felles problemstilling for de fleste team og domener i DIPS.  
-              speaker: Anders Skyrud Jensen
-        - room: Klasserom    
+              speaker: Ekstern foredragsholder, TBA
+              tag: KI, Teknologi    
+        - room: Storsal 3
           sessions:
-            - start: 2024-04-18:10.00
-              end: 2024-04-18:11.15
-              kind: workshop
-              title: Helsejournal med din AI «Assistent»  
-              ingress: | 
-                Hvordan kan bruk av AI og smartteknologi effektivisere arbeidsoppgaver til helsepersonell? Team Assistant deler hva vi har jobbet med innenfor AI og journal. 
-                
-                Målet med workshopen er trefoldig: 
-                * Value Proposition Design: kartlegge behov og pains til helsepersonell
-                * Kartlegge hvordan AI kan effektivisere arbeidshverdagen til helsepersonell
-                * Brukerteste «Assistent» med innspill til forbedring
-            
-              description: |
-                Gjennom denne workshopen håper vi å identifisere konkrete muligheter for implementering av teknologiske løsninger som kan forbedre arbeidsflyten og opplevelsen til helsepersonell i sitt daglige arbeid.
+          - start: 2025-04-10:10.00
+            end: 2025-04-10:11.45
+            kind: workshop
+            teams: 
+            title: Testing av FrontEnd
+            ingress: Det er viktig å bygge en kultur for automatisert testing og bevisstgjøre teamene på hva som kreves for å få dette til, og hvilken gevinst det gir.
+            description: |
+              Automatisert testing i web frontend. 
+              Hvordan teste flyter (ende-til-ende)? 
+              Erfaringer med ulike verktøy/rammeverk (Playwright, Cypress, Selenium, RTL). 
+              Vise GUI (recorder) for å lage tester. 
+            speaker: Martin Vassbotten
+            tag: QA, Teknologi, Utvikling
+          - start: 2025-04-10:12.30
+            end: 2025-04-10:14.15
+            kind: workshop
+            title: Finne problemet i høystakken - hvordan bruke verktøysettet tilgjengelig for å finne ut av feil og ytelsesproblemer
+            ingress: En workshop hvor en ser på hvordan vi kan finne ut av feilsituasjoner og tregheter i Arena og tjenester med bruk av informasjonskildene og det verktøysettet vi har tilgjengelig.
+            description: |
+              Med å bruke verktøysettet vil en innad i team fort kunne vise til detaljer slik at utviklere fort kan identifisere problemer å fikse de for både utviklings- og testmiljøer. 
+              I produksjonsmiljøer vil vi møte på en del av de samme verktøyene så med å lære seg å bruke disse, vil dere som team mer effektivt kunne finne de nødvendige detaljene knyttet til feil og ytelses-utfordringer i produksjon.
+            speaker: Trond Andersen
+            tag: QA
+        - room: The Social
+          sessions:
+          - start: 2025-04-10:10.00
+            end: 2025-04-10:11.45
+            kind: workshop
+            teams: 
+            title: Assistent Workshop
+            ingress: Utviklerne fra Team Assistent skal ha noen praktiske oppgaver rundt AI i DIPS.
+            description: |
+              Utviklerne fra Team Assistent skal ha noen praktiske oppgaver rundt AI i DIPS.
+              (Mer beskrivelse kommer)
+            speaker: William Dalheim
+            tag: Teknologi, KI
+          - start: 2025-04-10:12.30
+            end: 2025-04-10:14.15
+            kind: workshop
+            title: Hvordan estimere effektivt - praktisk bruk av rutine og mal for estimering i DIPS
+            ingress: Det ligger i menneskets natur å være optimistisk.
+            description: |
+              Og det er lett å overse eller glemme hvilke aktiviteter som inngår i innsiktsarbeid, produktutvikling, kvalitetssikring og leveranse til kunde. 
+              Vi har derfor laget en rutine med tilhørende mal som skal gjøre det enklere å gjennomføre estimering i utviklingsteam, f.eks. når man utarbeider tilbud til kunde eller når et team ønsker å få bedre oversikt og kontroll på omfanget av utviklingsoppgaver. 
+              Vi kommer i workshopen til å gå igjennom hvorfor vi estimerer, hva man kan (og hva man ikke bør) bruke estimater til, før vi øver oss på å bruke malen og rutinen gjennom en praktisk oppgave.
+            speaker: Kjell Arne Fransplass, Trond Fredrik og Siv Marie Lien
+            tag: Produkt
+        - room: Salten
+          sessions:
+          - start: 2025-04-10:10.00
+            end: 2025-04-10:11.45
+            kind: workshop
+            teams: 
+            title: Hvordan lykkes med workshops som gir resultater?
+            ingress: I denne workshopen lærer du grunnleggende metode og teknikker for å arrangere workshops som skaper verdi (og ikke kaster bort deltagernes tid). 
+            description: |
+              I denne workshopen lærer du grunnleggende metode og teknikker for å arrangere workshops som skaper verdi (og ikke kaster bort deltagernes tid). 
+              Vi går gjennom hvordan du planlegger, forbereder og gjennomfører en god workshop, og det er lagt opptil noe presentasjon og mest øvelser.
 
-                d:exchange gir oss en unik mulighet til å samle et mangfold av fagpersoner som arbeider med ulike aspekter av Arena. Her har vi sjansen til å grundig kartlegge brukerreiser for ulike helsepersonell og deres interaksjon med systemene. Dette gir oss en dyptgående forståelse av hvordan våre systemer kan forbedres for å bedre støtte behovene til helsepersonell og optimere deres arbeidsprosesser.
-
-                Maks antall 16 personer
-              speaker: Lillian Ayla Ersoy
-            - start: 2024-04-18:11.25
-              end: 2024-04-18:12.00
-              kind: workshop
-              title: Helsejournal med din AI «Assistent»  forts.
-              speaker: Lillian Ersoy
-            - start: 2024-04-18:12.30
-              end: 2024-04-18:13.45
-              kind: workshop
-              title: Et ord er verd tusen tall – ord- og dokumentvektorer
-              ingress: En av de grunnleggende idéene bak ChatGPT og AI-basert tekstbehandling er å kunne behandle tekst i vektorform – ved å lage en framstilling av tekstene i tallform, kan vi begynne å sammenligne, kategorisere og gruppere dem.
-              description: | 
-                I denne workshopen gir vi en kort oppsummering av disse teknikkene, ser på hvordan vi kan implementere disse selv, og oppsummerer erfaringene våre fra Team Kamel.
-
-                Hvorfor er dette viktig for DIPS?
-                
-                Setnings- og tekstvektorer kan brukes for å lage søk som kan ta høyde for skrivefeil og sjargong i ulike fagfelt – de er også en fundamental del av chat- og spørsmålssvar-løsninger.
-              speaker: Jørgen Aarmo Lund
-            - start: 2024-04-18:13.55
-              end: 2024-04-18:14.40
-              kind: workshop
-              title: Et ord er verd tusen tall – ord- og dokumentvektorer forts.              
-              speaker: Jørgen Aarmo Lund        
-            
+              Alle som deltar får med seg en bok
+            speaker: Linda Vik og Cathrine Aldorino
+            tag: Sammarbeid, Produkt, Ekstern
+          - start: 2025-04-10:12.30
+            end: 2025-04-10:14.15
+            kind: workshop
+            title: Verdien av det vi leverer - et produktverktøy
+            ingress: Hvordan kan vi definere og konkretisere problemene man ønsker å løse bedre, og kommunisere verdien av det vi leverer?
+            description: |
+              I denne workshopen får du introduksjon til et verktøy teamet kan bruke i prioriteringsfasen, som gjør det lettere å vite selv og kommunisere ut hva vi ønsker å oppnå.
+            speaker: Lisa F. Haugen
+            tag: Prosess, Strategi, Produkt

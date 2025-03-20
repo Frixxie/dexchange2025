@@ -30,13 +30,13 @@
     .content {
         font-size: 1.4rem;
         text-align: left;
-        margin: 20px;
+        margin: 10px;
     }
 
     .break {
         position: absolute;
         background: white;
-        color: var(--accent-0);
+        color: var(--dipsblue);
         width: 100%;
         border-radius: 10px;
     }

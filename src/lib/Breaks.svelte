@@ -14,7 +14,6 @@
         grid-area: 1/1;
         display: grid;
         grid-gap: 0;
-
         top: 54px;
         position: relative;
     }

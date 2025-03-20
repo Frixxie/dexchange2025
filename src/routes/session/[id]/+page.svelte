@@ -45,12 +45,14 @@
         </h4>
         
         {#if session.kind=="speech"}
-            <span class="tag">FOREDRAG</span>
-        {:else if session.kind=="lightning"}
-            <span class="tag">LYNTALE</span>
+            <span class="sessionType">FOREDRAG</span>
         {:else if session.kind=="workshop"}
-            <span class="tag">WORKSHOP</span>  
+            <span class="sessionType">WORKSHOP</span>  
         {/if}
+
+        {#each session.tag.split(",") as tag}
+            <span class="tag">{tag}</span>
+        {/each}
 
         <h1>    
             {session?.title}
@@ -83,6 +85,14 @@
     }
 
     .tag {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #eeeeee;
+        background: black;
+        padding: 1px 3px;
+    }
+
+    .sessionType {
         font-size: 1rem;
         font-weight: bold;
         color: #eeeeee;

@@ -15,6 +15,7 @@ export default class Session {
     start: Date;
     end: Date;
     track: Track;
+    tag: string;
     constructor(session: any, track: Track) {
         this.id = sessionCounter++;
         this.kind = session.kind;
@@ -27,5 +28,6 @@ export default class Session {
         this.start = moment(session.start, "YYYY-MM-DDTHH:mm").toDate(),
         this.end = moment(session.end, "YYYY-MM-DDTHH:mm").toDate(),
         this.track = track;
+        this.tag = session.tag;
     }
 }

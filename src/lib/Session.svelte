@@ -4,6 +4,7 @@
     import {calculateTop, calculateHeight} from "./timeUtils";
     import Session from "./session";
     import Tag from "./Tag.svelte";
+    import SessionType from "./SessionType.svelte";
     import {activeTrackStore} from "../stores/scheduleStore";
 
 
@@ -29,11 +30,12 @@
         <div class="content">
             <div class="textbox">
                 <h3 class="title">{displayTime()} {session.title}</h3>
+                <SessionType {session}/>
                 <Tag {session}/>
                 <h4 class="speaker">{session.speaker}</h4>        
                 <a class="ingress {$activeTrackStore == session.track.index ? "active":""}" href="./session/{session.id}" style="color:var(--contrast-{session.track.index}" aria-label="Les mer om {session.title}" title="Klikk for å lese mer">
                     {#if session.ingress}
-                        {@html marked(session.ingress)}
+                    {@html marked(session.ingress)}
                     {/if}         
                     
                 </a>
